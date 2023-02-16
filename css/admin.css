@@ -1,0 +1,271 @@
+/* Admin styles */
+
+#breed {
+    visibility: hidden;
+}
+
+.containerlogin {
+    width: 700px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.grooming-form {
+    max-width: 660px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+}
+
+
+.groom-submit button[type="submit"]
+{
+    margin-top:20px;
+    margin-left:15px;
+    margin-right:20px;
+    
+}
+.groom-submit button[type="reset"]
+{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+#radio-container {
+    margin-top:15px;
+    padding-left:20px;
+    
+}
+
+.table-condensed {
+    font-size:12px;
+}
+table th {
+    background-color:#FDA07F;
+}
+table a {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #2C45F8;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+table a:hover, table a:active {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: #2C45F8;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+    
+.grooming-form-ad {
+max-width: 500px;
+margin: 5px auto;
+padding:1em;
+}
+.form-container-admin {
+background: #FEF9E9;
+top:50%;
+left:50%;
+padding:1em;
+border-radius: 15px;
+}
+
+.form-container {
+    top:50%;
+    left:50%;
+    padding:1em;
+    
+    }
+
+.tbl-container {
+padding:2em;
+}
+
+
+.tbl-container h5 {
+
+color:#FDA07F;
+padding-bottom: 5px;
+border-bottom:solid 3px #2C45F8;
+
+}
+
+
+.grooming-form h4 {
+text-align:center;
+color:#FDA07F;
+padding-bottom: 5px;
+border-bottom:solid 3px #2C45F8;
+
+}
+
+.heading-box h1 {
+    font-size:.9em;
+    text-transform:uppercase;
+    color:#FDA07F;
+    padding-bottom: 4px;
+    border-bottom:solid 3px #2C45F8;
+    margin-bottom:20px
+} 
+.form-title h1 {
+        width:220px;
+        padding-bottom:5px;
+        color:#FDA07F;
+        font-size: 1.4em;
+        border-bottom: solid 3px #2C45F8;
+        margin-bottom: 20px;
+}
+
+.contact-title h1 {
+    width:127px;
+    padding-bottom:5px;
+    color:#FDA07F;
+    font-size: 1.4em;
+    border-bottom: solid 3px #2C45F8;
+    margin-bottom: 20px;
+    
+}
+
+.contact-container {
+    max-width: 350px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+    
+}
+
+.containerlogin {
+    max-width: 250px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1em
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+    .tbl-container {
+        padding:0;
+        }
+    }
+
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    font-size: 12px;
+  }
+
+  table a {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #2C45F8;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+table a:hover, table a:active {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: #2C45F8;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+    
+  }
+th { 
+    background: #FDA07F; 
+    color: black; 
+    font-weight: bold; 
+ }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+      display: block;
+      
+}
+.tbl-container {
+    padding:0;
+    }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+tr {
+margin: 0 0 1rem 0;
+background:rgb(163, 203, 252);
+}
+
+tr:nth-child(odd) {
+background: #FDA07F;
+}
+
+  td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+  }
+
+  td:before {
+      
+      position: absolute;
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      font-weight: bold; 
+  }
+  td:nth-of-type(1):before { content: "GroomingID"; }
+  td:nth-of-type(2):before { content: "First Name"; }
+  td:nth-of-type(3):before { content: "Last Name"; }
+  td:nth-of-type(4):before { content: "Address"; }
+  td:nth-of-type(5):before { content: "City"; }
+  td:nth-of-type(6):before { content: "State"; }
+  td:nth-of-type(7):before { content: "Zip"; }
+  td:nth-of-type(8):before { content: "Phone Number"; }
+  td:nth-of-type(9):before { content: "Email"; }
+  td:nth-of-type(10):before { content: "Pet Type"; }
+  td:nth-of-type(11):before { content: "Breed"; }
+  td:nth-of-type(12):before { content: "Pet Name"; }
+  td:nth-of-type(13):before { content: "Neutered Or Spayed"; }
+  td:nth-of-type(14):before { content: "Pet Birthday"; }
+  td:nth-of-type(15):before { content: "Delete Record"; }
+  td:nth-of-type(16):before { content: "Edit Record"; }
+}
+
+/* Admin styles end */
